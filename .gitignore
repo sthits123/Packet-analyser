@@ -1,0 +1,31 @@
+# Build directories
+build/
+cmake-build-*/
+
+# CMake artifacts
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# Compiled binaries
+dpi_engine
+dpi_simple
+packet_analyzer
+*.exe
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+
+# Generated outputs
+output.pcap
+
+# Editor and OS files
+.DS_Store
+*.swp
+*~
+.vscode/
+.idea/
